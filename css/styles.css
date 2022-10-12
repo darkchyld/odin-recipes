@@ -3,27 +3,30 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .wrapper {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 2rem;
-    border: 0px solid black
+    padding: 0rem;
+    border: 3px dotted #B48EAD
 }
 .leftheader {
     flex-basis: 40%;
     text-align: right;
-    padding-right: 0.5rem;
+    padding: 3rem 2rem;
+    border: 1px solid black
 }
 .leftheader img {
     border-radius: 2rem;
+    border: 1px solid black
 }
 .rightheader {
     flex-basis: 60%;
     padding-left: 1rem;
+    border: 1px solid black
 }
 .rightheader h3 {
     font-size: 2.5rem;
@@ -35,13 +38,13 @@ h1 {
     color: #4C566A;
     text-align: center;
     letter-spacing: 0.05em;
-    padding: 1.5rem;
 }
 h3 {
     font-size: 2rem;
     color:#434C5E;
     text-align: center;
     letter-spacing: 0.05em;
+    margin-bottom: 1rem;
     border: 0px solid black
 }
 .mainul {
@@ -53,7 +56,6 @@ li {
     font-size: 1.4rem;
     color:#434C5E;
     margin: 0.5rem auto;
-    width: 25%;
     letter-spacing: 0.05em;
     border: 0px solid black
 }
