@@ -11,26 +11,27 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     padding: 0rem;
-    border: 3px dotted #B48EAD
+    border: 0px dotted #B48EAD
 }
 .leftheader {
     flex-basis: 40%;
     text-align: right;
     padding: 3rem 2rem;
-    border: 1px solid black
+    border: 0px solid black
 }
 .leftheader img {
     border-radius: 2rem;
-    border: 1px solid black
+    border: 0px solid black
 }
 .rightheader {
     flex-basis: 60%;
     padding-left: 1rem;
-    border: 1px solid black
+    border: 0px solid black
 }
 .rightheader h3 {
-    font-size: 2.5rem;
-    color:#434C5E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color:#8FBCBB;
     letter-spacing: 0.05em;
 }
 h1 {
